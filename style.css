@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilização do cabeçalho*/
+
+body{
+    font-family: 'open Sans', Arial, sans-serif;
+    background-color: #f1ebebeb;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 225px;
+    top: 0;
+    z-index: 9;
+}
+
+#mainTopHeader{    
+    width: 100%;
+    height: 75px;
+    background-color: #f1ebebeb;
+}
+
+#mainBottomHeader{
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+}
+
+#topHeader {    
+    max-width: 1440px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#btnBusca{
+    border: 1.5px solid red;
+    width: 15%;
+    height: 30px;
+    margin: 1px 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff5757;
+}
+
+#btnBusca:hover{
+    background-color: #f1ebebeb;
+    color:#ff5757;
+}
+
+#txtBusca{
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    border: 1.5px solid #ff5757;
+}
+
+#campoBusca{
+    width: 40%;
+    height: 33px;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+}
+
+
+#bottomHeader {
+    max-width: 1440px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+#bottomHeader a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#btnAcessar{
+    height: 60px;
+    background-color: #222222;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+#btnAcessar:hover{
+    color: #ff5757;
+}
+
+#btnCadastrar{
+    width: 200px;
+    height: 60px;
+    background-color: #ff5757;
+    border-bottom-left-radius: 50px;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+#btnCadastrar:hover{ 
+    border: .5px solid #ff5757;
+    background-color: #222222;
+}
+
+#acessButtons{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#acessButtons img{
+    width: 40px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+#mainLogo{
+    max-width: 400px;
+    margin-top: 25px;
+    margin-left: 15%;   
+    position: fixed;
+}
+
+#mainLogo img{
+    width: 85%;  
+    position: relative;
+    margin-top: 3%;
+}
+
+#circuloLogo{
+    width: 145px;
+    height: 145px;
+    background-color: #222222;
+    border-radius: 50%;    
+    position: absolute;
+}
+
+
+
+
+#linksMenus{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding-right: 25%;
+    box-sizing: border-box;
+}
+
+#linksMenus ul li{
+    color: #fff;
+    font-size: 25px;
+    list-style-type: none;
+    display: inline-block;
+    justify-content: right;
+    padding: 0 2%;
+    font-weight: lighter;
+}
+
+  /*estilização do conteudo*/
+
+.conteiner{
+    width: 100%;
+}
+
+.sessao{
+  max-width: 1440px;
+  background-color: #f1ebebeb;
+  position: relative;
+  margin: 25px 0;
+}
+
+.sessao h2{
+  color: #ff5757;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 20px;
+}
+
+.sessao p{
+  color: #f1ebebeb;
+  font-size: 30px;
+  line-height: 1.8;
+  font-weight: lighter;
+  margin: 10px 20px;
+}
+
+.frontendSection{
+  width: 50%;
+  height: 550px;
+  background-color: #222222;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  margin: 20px 0;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.frontendSection h1{
+  width: 60%;
+  height: 110px;
+  background-color: #545454;  
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  color: #ff5757;
+  font-size: 35px;
+  text-align: center;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+.sessao h2{
+  color: #ff5757;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+
+.backendSection{
+  width: 50%;
+  height: 550px;
+  background-color: #222222;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  margin-left: 50%;  
+  padding-top: 50px;
+  text-align: right;
+}
+
+.backendSection h1{
+  width: 60%;
+  height: 110px;
+  margin-left: 40%;
+  background-color: #545454;  
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  color: #ff5757;
+  font-size: 35px;
+  text-align: center;
+  padding: 35px;
+  box-sizing: border-box;
+}
+
+  /*Estilização rodapé*/
+
+  footer{
+      width: 100%;
+      height: 400px;
+      background-color: #222222;
+  }
+
+
+

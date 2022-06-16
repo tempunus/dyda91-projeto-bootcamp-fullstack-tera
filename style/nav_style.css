@@ -1,0 +1,29 @@
+.navbar-brand img{
+    height: 50px;
+}
+
+.offcanvas-title img{
+    height: 45px !important;
+}
+
+.btn-outline-success {
+    color: #ff5757 !important;
+    border-color: #ff5757 !important;
+}
+
+.nav-link.active{
+    color: #ff5757 !important;
+}
+
+.nav-link{
+    color: #ff5757 !important;
+}
+
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem #dc354554 !important;
+}
+
+.btn-outline-success:active{
+    background-color: #dc3545 !important;
+    border-color: #ff5757 !important;
+}

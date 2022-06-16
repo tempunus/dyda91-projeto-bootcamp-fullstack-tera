@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*========== estilização do cabeçalho ==========*/
+
+body{
+    font-family: 'open Sans', Arial, sans-serif;
+    background-color: #f1ebebeb;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 225px;
+    top: 0;
+    z-index: 9;
+}
+
+#mainTopHeader{    
+    width: 100%;
+    height: 200px;
+    background-color: #f1ebebeb;
+}
+
+#mainBottomHeader{
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+}
+
+#topHeader {    
+    max-width: 1440px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bottomHeader {
+    max-width: 1440px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+#bottomHeader a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+/*========== estilização do conteudo==========*/
+
+  #conteiner{
+       background-color: #fff;
+       margin: 10px 0;
+       border: 1px solid rgb(0,0,0,);
+       box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+       border-radius: 5px;
+       padding: 10px;
+  }
+
+/*========== Estilização rodapé ==========*/
+
+footer h5{
+    color: #ff5757;
+ }
+
+footer strong{    
+    color: #ff5757;
+ }
+
+
